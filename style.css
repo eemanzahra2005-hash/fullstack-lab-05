@@ -1,0 +1,123 @@
+body {
+  font-family: "Poppins", system-ui, sans-serif;
+  background: #f3f5fb;
+  color: #1f2433;
+}
+
+/* Header */
+.hero {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed 55%, #db2777);
+  padding: 48px 0 40px;
+  border-radius: 0 0 28px 28px;
+}
+.hero h1 { font-weight: 700; font-size: 2.6rem; }
+.lab-pill {
+  background: rgba(255, 255, 255, 0.18);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+.submitted { opacity: 0.92; font-size: 0.95rem; }
+
+/* Task cards */
+.task-card {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(31, 36, 51, 0.08);
+  overflow: hidden;
+}
+.task-card .card-header {
+  background: #fff;
+  border-bottom: 1px solid #eceef5;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 16px 20px;
+}
+.task-card .card-header small {
+  display: block;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-top: 2px;
+}
+.task-no {
+  background: #4f46e5;
+  color: #fff;
+  border-radius: 8px;
+  padding: 2px 10px;
+  margin-right: 8px;
+  font-size: 0.9rem;
+}
+
+/* Task 1 lines */
+.info-line {
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #f7f8fc;
+  margin-bottom: 8px;
+}
+.info-line b { color: #4f46e5; }
+
+/* Task 2 */
+.dept-title { color: #4f46e5; font-weight: 600; margin-bottom: 14px; }
+.student-card {
+  border: none;
+  border-radius: 14px;
+  background: #f7f8fc;
+  border-left: 5px solid #22c55e;
+  height: 100%;
+}
+.student-card.fail { border-left-color: #ef4444; background: #fff5f5; }
+.student-card .card-title { font-size: 1rem; font-weight: 600; }
+
+/* Badges */
+.pass-text { color: #16a34a; font-weight: 600; }
+.fail-text { color: #dc2626; font-weight: 600; }
+.grade-badge {
+  background: #4f46e5;
+  color: #fff;
+  border-radius: 6px;
+  padding: 1px 8px;
+  font-size: 0.85rem;
+}
+
+/* Log boxes (Task 3 / 4) */
+.log-box {
+  background: #0f172a;
+  color: #e2e8f0;
+  border-radius: 12px;
+  padding: 14px 16px;
+  min-height: 60px;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.92rem;
+}
+.log-box p { margin: 0 0 6px; }
+.log-box .ok { color: #4ade80; }
+.log-box .err { color: #f87171; font-weight: 600; }
+.log-box .muted { color: #94a3b8; }
+
+.part-title { font-weight: 600; color: #374151; margin-bottom: 10px; }
+.search-box { max-width: 520px; }
+
+/* Task 4 result card */
+.result-card {
+  background: #fff;
+  color: #1f2433;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin: 8px 0;
+  font-family: "Poppins", system-ui, sans-serif;
+}
+.result-card div { margin-bottom: 2px; }
+
+/* Task 4 Part D table + stats */
+.results-table th { background: #eef0fb; }
+.stat-box {
+  background: #f7f8fc;
+  border-radius: 14px;
+  padding: 14px;
+  text-align: center;
+}
+.stat-box h3 { margin: 0; font-weight: 700; color: #4f46e5; }
+.stat-box.pass h3 { color: #16a34a; }
+.stat-box.fail h3 { color: #dc2626; }
